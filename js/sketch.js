@@ -13,7 +13,7 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   //test if json file works
-  console.log(info[birth-city]);
+  console.log(info["birth-city"]);
 }
 
 //draw() runs in a loop, after setup()
