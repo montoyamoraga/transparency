@@ -17,7 +17,7 @@ function setup() {
   keys = Object.keys(info)
 
   for (var i = 0; i < keys.length; i++) {
-    console.log(keys);
+    console.log(keys[i]);
   }
 
 }
