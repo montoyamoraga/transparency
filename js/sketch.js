@@ -14,16 +14,20 @@ function preload() {
 //setup() runs once, after preload()
 function setup() {
   //create canvas
-  createCanvas(windowWidth, windowHeight);
+  //createCanvas(windowWidth, windowHeight);
+  noCanvas();
 
   //retrieve keys from json
   keys = Object.keys(info)
 
   //format the text to be on the center of the canvas
-  textAlign(CENTER);
+  //textAlign(CENTER);
+
+
 
   //retrieve menu
   var menu = document.getElementById("selectMenu");
+  var text = document.getElementById("currentQuery");
 
   //iterate through keys
   for (var i = 0; i < keys.length; i++) {
@@ -42,7 +46,8 @@ function setup() {
 
 // function triggered when an item is selected on the menu
 function selectChange(selector) {
-  text(selector + ": " + info[selector], width/2, height/2)
+  //text(selector + ": " + info[selector], width/2, height/2)
+  currentQuery.innerHTML = selector;
   console.log("selector: " + selector);
 }
 
