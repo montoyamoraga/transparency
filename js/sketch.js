@@ -18,6 +18,7 @@ function setup() {
 
   for (var i = 0; i < keys.length; i++) {
     console.log(keys[i] + ": " + info[keys[i]]);
+    text(keys[i] + ": " + info[keys[i]], 0, width*i/keys.length)
   }
 
 }

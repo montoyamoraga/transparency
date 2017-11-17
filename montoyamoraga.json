@@ -1,5 +1,5 @@
 {
-  "version-number": "v1.0.1",
+  "version-number": "v1.0.2",
   "version-year": "2017",
   "version-month": "11",
   "version-day": "16",
@@ -10,5 +10,8 @@
   "birth-day": "3",
   "birth-country": "Chile",
   "birth-city": "Santiago",
-  "siblings-number": "0"
+  "siblings-number": "0",
+  "marital-status": "single",
+  "children": "0",
+  "isAlive": "true",
 }
