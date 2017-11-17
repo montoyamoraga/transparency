@@ -1,8 +1,8 @@
 {
   "first-name": "aaron",
   "last-name": "montoya-moraga",
-  "birth-gender": "male",
   "is-alive": "true",
+  "birth-gender": "male",
   "birth-day": "3",
   "birth-month": "7",
   "birth-year": "1989",
@@ -17,8 +17,8 @@
   "blood-rho": "positive",
   "allergies": "mosquito bites",
   "diet": "vegan",
-  "is-baptised": "false",
-  "is-believer-in-god": "false",
+  "is-baptized": "false",
+  "religion": "none",
   "current-home": "brooklyn, ny, usa",
   "previous-home": "santiago, metropolitana, chile",
   "undergrad-institution": "pontificia universidad catolica de chile",
@@ -28,12 +28,12 @@
   "employer-name": "new york university",
   "website": "montoyamoraga.io",
   "phone-number": "+13478842955",
-  "mail-address": "montoyamoraga@gmail.com",
-  "twitter": "@montoyamoraga",
-  "facebook": "@montoyamoraga",
-  "instagram": "@montoyamoraga",
+  "email-address": "montoyamoraga@gmail.com",
+  "twitter-handle": "@montoyamoraga",
+  "facebook-handle": "@montoyamoraga",
+  "instagram-handle": "@montoyamoraga",
   "version-day": "16",
   "version-month": "11",
   "version-year": "2017",
-  "version-number": "v1.0.10"
+  "version-number": "1.0.11"
 }
