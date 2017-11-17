@@ -3,6 +3,7 @@
   "last-name": "montoya-moraga",
   "is-alive": "true",
   "birth-gender": "male",
+  "legal-gender": "male",
   "birth-day": "3",
   "birth-month": "7",
   "birth-year": "1989",
@@ -41,5 +42,5 @@
   "version-day": "17",
   "version-month": "11",
   "version-year": "2017",
-  "version-number": "1.0.13"
+  "version-number": "1.0.14"
 }
