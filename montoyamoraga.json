@@ -2,8 +2,9 @@
   "first-name": "aar&#xf3;n",
   "last-name": "montoya-moraga",
   "is-alive": "true",
-  "birth-gender": "male",
-  "legal-gender": "male",
+  "gender-identity": "male",
+  "gender-assigned-at-birth": "gender",
+  "sexual-orientation": "heterosexual",
   "birth-day": "3",
   "birth-month": "7",
   "birth-year": "1989",
@@ -39,8 +40,15 @@
   "github-handle": "montoyamoraga",
   "record-label": "bandurria.io",
   "educational-collective": "codedescuela.cl",
+  "have-consumed-alcohol": "true",
+  "have-consumed-caffeine": "true",
+  "have-consumed-tobacco": "true",
+  "have-consumed-marijuana": "false",
+  "have-consumed-cocaine": "false",
+  "have-consumed-opioids": "false",
+  "have-consumed-hallucinogens": "false",
   "version-day": "17",
   "version-month": "11",
   "version-year": "2017",
-  "version-number": "1.0.14"
+  "version-number": "1.0.16"
 }
