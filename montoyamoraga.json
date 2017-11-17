@@ -18,12 +18,17 @@
   "allergies": "mosquito bites",
   "diet": "vegan",
   "employer": "new york university",
-  "home": "brooklyn, ny, usa",
+  "current_home": "brooklyn, ny, usa",
+  "previous_home": "santiago, metropolitana, chile",
+  "undergrad_institution": "pontificia universidad catolica de chile",
+  "undergrad_program": "electrical engineering",
+  "graduate_institution": "new york university",
+  "graduate_program": "interactive telecommunications program",
   "website": "montoyamoraga.io",
   "phone-number": "+13478842955",
   "mail-address": "montoyamoraga@gmail.com",
   "version-day": "16",
   "version-month": "11",
   "version-year": "2017",
-  "version-number": "v1.0.7"
+  "version-number": "v1.0.8"
 }
