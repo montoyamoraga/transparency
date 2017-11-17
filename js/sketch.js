@@ -31,7 +31,7 @@ function setup() {
     //console.log(keys[i] + ": " + info[keys[i]]);
 
     //place pair key-value in canvas
-    text(keys[i] + ": " + info[keys[i]], width/2, 0.9*height*(i+1)/keys.length)
+    //text(keys[i] + ": " + info[keys[i]], width/2, 0.9*height*(i+1)/keys.length)
 
     //
     var option = document.createElement("option");
@@ -40,7 +40,9 @@ function setup() {
   }
 }
 
+// function triggered when an item is selected on the menu
 function selectChange(selector) {
+  text(selector + ": " + info[selector, width/2, 0.9*height*(i+1)/keys.length)
   console.log("selector: " + selector);
 }
 
