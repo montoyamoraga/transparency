@@ -47,7 +47,7 @@ function setup() {
 // function triggered when an item is selected on the menu
 function selectChange(selector) {
   //text(selector + ": " + info[selector], width/2, height/2)
-  currentQuery.innerHTML = selector;
+  currentQuery.innerHTML = selector + ": " + info[selector];
   console.log("selector: " + selector);
 }
 
