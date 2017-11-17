@@ -22,19 +22,22 @@ function setup() {
   //format the text to be on the center of the canvas
   textAlign(CENTER);
 
+  //retrieve menu
+  var menu = document.getElementById("selectMenu");
+
   //iterate through keys
   for (var i = 0; i < keys.length; i++) {
     //log key in console
-    console.log(keys[i] + ": " + info[keys[i]]);
+    //console.log(keys[i] + ": " + info[keys[i]]);
+
     //place pair key-value in canvas
     text(keys[i] + ": " + info[keys[i]], width/2, 0.9*height*(i+1)/keys.length)
+
+    //
+    var option = document.createElement("option");
+    option.text = keys[i];
+    menu.add(option);
   }
-
-  var menu = document.getElementById("selectMenu");
-  var option = document.createElement("option");
-  option.text = "testing";
-  menu.add(option);
-
 }
 
 
