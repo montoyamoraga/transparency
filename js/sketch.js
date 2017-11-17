@@ -42,7 +42,7 @@ function setup() {
 
 // function triggered when an item is selected on the menu
 function selectChange(selector) {
-  text(selector + ": " + info[selector, width/2, 0.9*height*(i+1)/keys.length)
+  text(selector + ": " + info[selector], width/2, 0.9*height*(i+1)/keys.length)
   console.log("selector: " + selector);
 }
 
