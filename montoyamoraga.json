@@ -8,8 +8,8 @@
   "birth-year": "1989",
   "birth-city": "santiago",
   "birth-country": "chile",
-  "biological-father": "victor angel miro montoya-Salas",
-  "biological-mother": "maria bernardita moraga-Armijo",
+  "biological-father": "victor angel miro montoya-salas",
+  "biological-mother": "maria bernardita moraga-armijo",
   "siblings": "0",
   "children": "0",
   "marital-status": "single",
@@ -17,10 +17,12 @@
   "blood-rho": "positive",
   "allergies": "mosquito bites",
   "diet": "vegan",
+  "employer": "new york university",
+  "home": "brooklyn, ny, usa",
   "website": "montoyamoraga.io",
   "mail-address": "montoyamoraga@gmail.com",
   "version-day": "16",
   "version-month": "11",
   "version-year": "2017",
-  "version-number": "v1.0.5"
+  "version-number": "v1.0.6"
 }
