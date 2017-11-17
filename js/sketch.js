@@ -27,7 +27,7 @@ function setup() {
     //log key in console
     console.log(keys[i] + ": " + info[keys[i]]);
     //place pair key-value in canvas
-    text(keys[i] + ": " + info[keys[i]], width/2, height*i/keys.length)
+    text(keys[i] + ": " + info[keys[i]], width/2, 0.9*height*(i+1)/keys.length)
   }
 
 }
