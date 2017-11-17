@@ -1,18 +1,22 @@
 {
   "first-name": "Aaron",
   "last-name": "Montoya-Moraga",
+  "birth-gender": "male",
+  "isAlive": "true",
   "birth-day": "3",
   "birth-month": "7",
   "birth-year": "1989",
-  "birth-country": "Chile",
   "birth-city": "Santiago",
-  "siblings-number": "0",
+  "birth-country": "Chile",
+  "biological-father": "Victor Angel Miro Montoya-Salas",
+  "biological-mother": "Maria Bernardita Moraga-Armijo",
+  "siblings": "0",
+  "children": "0",
   "marital-status": "single",
   "website": "montoyamoraga.io",
-  "children": "0",
-  "isAlive": "true",
-  "version-number": "v1.0.3",
+  "mail-address": "montoyamoraga@gmail.com",
   "version-day": "16",
+  "version-month": "11",
   "version-year": "2017",
-  "version-month": "11"
+  "version-number": "v1.0.4"
 }
