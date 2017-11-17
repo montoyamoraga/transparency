@@ -9,7 +9,9 @@
   "birth-city": "santiago",
   "birth-country": "chile",
   "biological-father": "v&#xed;ctor &#xe1;ngel miro montoya-salas",
+  "legal-father": "v&#xed;ctor &#xe1;ngel miro montoya-salas",
   "biological-mother": "mar&#xed;a bernardita moraga-armijo",
+  "legal-mother": "mar&#xed;a bernardita moraga-armijo",
   "siblings": "0",
   "children": "0",
   "marital-status": "single",
@@ -39,5 +41,5 @@
   "version-day": "17",
   "version-month": "11",
   "version-year": "2017",
-  "version-number": "1.0.12"
+  "version-number": "1.0.13"
 }
