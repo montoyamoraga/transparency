@@ -1,8 +1,4 @@
 {
-  "version-number": "v1.0.2",
-  "version-year": "2017",
-  "version-month": "11",
-  "version-day": "16",
   "first-name": "Aaron",
   "last-name": "Montoya-Moraga",
   "birth-year": "1989",
@@ -14,4 +10,8 @@
   "marital-status": "single",
   "children": "0",
   "isAlive": "true",
+  "version-number": "v1.0.3",
+  "version-year": "2017",
+  "version-month": "11",
+  "version-day": "16",
 }
