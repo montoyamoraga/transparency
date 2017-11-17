@@ -2,7 +2,7 @@
 
 ## about
 
-transparency site with information about myself. it can be accessed at [montoyamoraga.io/transparency](montoyamoraga.io/transparency)
+transparency site with information about myself. it can be accessed at [montoyamoraga.io/transparency](http://montoyamoraga.io/transparency/)
 
 ## technology
 
