@@ -8,5 +8,16 @@
     <style> body {padding: 0; margin: 0;} </style>
   </head>
   <body>
+
+    <select id="selectMenu" onchange="selectChange(this.value)">
+      <option value="">choose</option>
+    </select>
+
+    <script>
+      function selectChange(selector) {
+        console.log(selector);
+      }
+    </script>
+
   </body>
 </html>

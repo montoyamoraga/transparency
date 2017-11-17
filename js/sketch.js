@@ -30,6 +30,11 @@ function setup() {
     text(keys[i] + ": " + info[keys[i]], width/2, 0.9*height*(i+1)/keys.length)
   }
 
+  var menu = document.getElementById("selectMenu");
+  var option = document.createElement("option");
+  option.text = "testing";
+  menu.add(option);
+
 }
 
 

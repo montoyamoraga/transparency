@@ -29,11 +29,13 @@
   "website": "montoyamoraga.io",
   "phone-number": "+13478842955",
   "email-address": "montoyamoraga@gmail.com",
-  "twitter-handle": "@montoyamoraga",
-  "facebook-handle": "@montoyamoraga",
-  "instagram-handle": "@montoyamoraga",
-  "version-day": "16",
+  "twitter-handle": "montoyamoraga",
+  "facebook-handle": "montoyamoraga",
+  "instagram-handle": "montoyamoraga",
+  "vimeo-handle": "montoyamoraga",
+  "github-handle": "montoyamoraga",
+  "version-day": "17",
   "version-month": "11",
   "version-year": "2017",
-  "version-number": "1.0.11"
+  "version-number": "1.0.12"
 }
