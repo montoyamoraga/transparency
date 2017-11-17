@@ -19,6 +19,9 @@ function setup() {
   //retrieve keys from json
   keys = Object.keys(info)
 
+  //format the text to be on the center of the canvas
+  textAlign(CENTER);
+
   //iterate through keys
   for (var i = 0; i < keys.length; i++) {
     //log key in console
