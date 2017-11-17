@@ -35,14 +35,6 @@
           /*first reset, then set actual value wanted*/
           /*margin: 0.3em;*/
       }
-      /*#selectDiv {
-        width: 100%;
-        top: 30%;
-      }
-      #queryDiv {
-        width: 100%;
-        bottom: 30%;
-      }*/
       #everything {
         display: table;
         position: absolute;
@@ -60,22 +52,11 @@
   <body>
 
     <div id="everything">
-      <div id="selectDiv">
-        <select id="selectMenu" onchange="selectChange(this.value)">
-          <option value="">choose</option>
-        </select>
-      </div>
-
-      <div id="queryDiv">
-        <p id="currentQuery"></p>
-      </div>
+      <select id="selectMenu" onchange="selectChange(this.value)">
+        <option value="">choose</option>
+      </select>
+      <p id="currentQuery"></p>
     </div>
-
-    <!-- <script>
-      // function selectChange(selector) {
-      //   console.log(selector);
-      // }
-    </script> -->
 
   </body>
 </html>

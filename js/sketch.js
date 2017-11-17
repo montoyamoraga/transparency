@@ -51,7 +51,6 @@ function selectChange(selector) {
   console.log("selector: " + selector);
 }
 
-
 //draw() runs in a loop, after setup()
 function draw() {
 
