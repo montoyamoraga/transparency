@@ -3,7 +3,7 @@
   "last-name": "montoya-moraga",
   "is-alive": "true",
   "gender-identity": "male",
-  "gender-assigned-at-birth": "gender",
+  "gender-assigned-at-birth": "male",
   "sexual-orientation": "heterosexual",
   "birth-day": "3",
   "birth-month": "7",
@@ -47,8 +47,8 @@
   "have-consumed-cocaine": "false",
   "have-consumed-opioids": "false",
   "have-consumed-hallucinogens": "false",
-  "version-day": "17",
+  "version-day": "21",
   "version-month": "11",
   "version-year": "2017",
-  "version-number": "1.0.16"
+  "version-number": "1.0.17"
 }
