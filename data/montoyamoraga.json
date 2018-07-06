@@ -1,0 +1,85 @@
+{
+    "montoyamoraga": {
+        "legal": {
+            "first-name": "aar&#xf3;n",
+            "middle-name": "",
+            "last-names": "montoya moraga",
+            "marital-status": "single",
+            "nationality": "chilean",
+            "chilean-id": "16978895-2"
+            },
+        "birth": {
+            "day": "3",
+            "month:": "7",
+            "year": "1989",
+            "city": "santiago",
+            "country": "chile"
+        },
+        "gender": {
+            "gender-assigned-at-birth": "male",
+            "pronouns": "he/him",
+            "genitals": "penis"
+        },
+        "scars": {
+            "scar1": "handball accident",
+            "scar2": "knee cut",
+            "scar3": "drone injury"
+        },
+        "contact": {
+            "mail": "montoyamoraga@gmail.com",
+            "phone": "+13478842955",
+            "website": "http://montoyamoraga.io/",
+            "twitter": "montoyamoraga",
+            "facebook": "montoyamoraga",
+            "instagram": "montoyamoraga",
+            "vimeo": "montoyamoraga",
+            "github": "montoyamoraga"
+        },
+        "family": {
+            "biological-parent1": "mar&#xed;a bernardita moraga-armijo",
+            "biological-parent2": "v&#xed;ctor &#xe1;ngel miro montoya-salas",
+            "legal-parent1": "mar&#xed;a bernardita moraga-armijo",
+            "legal-parent2": "v&#xed;ctor &#xe1;ngel miro montoya-salas",
+            "siblings": "0"
+        },
+        "beliefs": {
+            "diet": "veganism",
+            "religion": "none",
+            "politics": "left"
+        },
+        "allergies": {
+            "allergy1": "mosquito bites",
+            "allergy2": "shrimp"
+        },
+        "blood": {
+            "type": "a2",
+            "rho": "positive"
+        },
+        "education": {
+            "primary-school": "the kent school",
+            "high-school": "deutsche schule santiago",
+            "undergraduate": "pontificia universidad cat&#xf3;lica de chile",
+            "graduate": "new york university"
+        },
+        "drugs-ever-consumed": {
+            "alcohol": "true",
+            "caffeine": "true",
+            "tobacco": "true",
+            "marijuana": "true",
+            "cocaine": "false",
+            "crack": "false",
+            "opoids": "false",
+            "mushrooms": "false"
+        },
+        "employers": {
+            "current": "none",
+            "past": "new york university"
+        },
+        "version": {
+            "day": "5",
+            "month": "7",
+            "year": "2018",
+            "number": "2.0.0"
+        }
+    }
+}

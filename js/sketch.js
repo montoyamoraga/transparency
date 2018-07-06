@@ -8,7 +8,7 @@ var keys = null;
 //preload() runs first, once
 function preload() {
   //load json file
-  info = loadJSON("./montoyamoraga.json");
+  info = loadJSON("./data/montoyamoraga.json");
 }
 
 //setup() runs once, after preload()
