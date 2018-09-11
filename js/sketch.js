@@ -1,40 +1,50 @@
 // parse data from montoyamoraga.json
 
 //store json file
-var info = null;
+let info = null;
 //store keys from the json file
-var keys = null;
+let keys = null;
+//store scar images
+let scar0;
+let scar1;
+let scar2;
+//store text
+
 
 //preload() runs first, once
 function preload() {
   //load json file
   info = loadJSON("./data/montoyamoraga.json");
+  scar0 = loadImage("./media/scars/scar0.jpg");
+  scar1 = loadImage("./media/scars/scar1.jpg");
+  scar2 = loadImage("./media/scars/scar2.jpg");
 }
 
 //setup() runs once, after preload()
 function setup() {
   //create canvas
   //createCanvas(windowWidth, windowHeight);
-  noCanvas();
+  // noCanvas();
 
   //retrieve keys from json
   keys = Object.keys(info)
 
+  // for (let i = 0; i < keys.length; i++) {
+  //   console.log(info[keys[i]]);
+  // }
+
   //retrieve menu
-  var menu = document.getElementById("selectMenu");
-  var text = document.getElementById("currentQuery");
+  let menu = document.getElementById("selectMenu");
+  let text = document.getElementById("currentQuery");
 
   //iterate through keys
-  for (var i = 0; i < keys.length; i++) {
+  for (let i = 0; i < keys.length; i++) {
     //log key in console
     //console.log(keys[i] + ": " + info[keys[i]]);
 
-    //place pair key-value in canvas
-    //text(keys[i] + ": " + info[keys[i]], width/2, 0.9*height*(i+1)/keys.length)
-
     //populate the menu
     //create a new option
-    var option = document.createElement("option");
+    let option = document.createElement("option");
     //make the text be the key
     option.text = keys[i];
     //add the option to the menu
@@ -45,8 +55,71 @@ function setup() {
 // function triggered when an item is selected on the menu
 function selectChange(selector) {
   //text(selector + ": " + info[selector], width/2, height/2)
-  currentQuery.innerHTML = info[selector];
-  console.log("selector: " + selector);
+
+  // reset index
+  let index = null;
+
+  // find the index for the selector
+  for (let i = 0; i < keys.length; i++) {
+    if (keys[i] == selector) {
+      console.log("selector: " + selector);
+      index = i;
+      break;
+    }
+  }
+
+  // reset innerHTML of currentQuery
+  currentQuery.innerHTML = "";
+
+  // retrieve keys of the selector
+  auxKeys = Object.keys(info[keys[index]])
+
+  // append selector text to innerHTML of currentQuery
+  for (let i = 0; i < auxKeys.length; i++) {
+    // console.log(auxKeys[i]);
+    currentQuery.innerHTML += auxKeys[i] + ": " + info[keys[index]][auxKeys[i]] + "<br />";
+  }
+
+  //special case for scars
+  if (keys[index] == "scars") {
+    currentQuery.innerHTML += "scar_0: <br/>";
+    currentQuery.innerHTML += "<img src='../media/scars/scar0.jpg' width=50%>"
+    currentQuery.innerHTML += "<br />"
+
+    currentQuery.innerHTML += "scar_1: <br/>";
+    currentQuery.innerHTML += "<img src='../media/scars/scar1.jpg' width=50%>"
+    currentQuery.innerHTML += "<br />"
+
+    currentQuery.innerHTML += "scar_2: <br/>";
+    currentQuery.innerHTML += "<img src='../media/scars/scar2.jpg' width=50%>"
+    currentQuery.innerHTML += "<br />"
+  }
+
+
+
+
+  // console.log(info[keys[index]]);
+
+
+
+  //
+  // console.log(info.legal);
+  //
+  // subTopics = Object.keys(info[index])
+  // console.log(subTopics);
+
+  // for (let j = 0; j < keys[index].length; j++) {
+  //   console.log(info[keys[index]]);
+  // }
+
+
+
+  // currentQuery.innerHTML = "";
+  // auxKeys = info.valueOf(selector);
+  // for element of info.selector {
+  //   currentQuery.innerHTML = currentQuery.innerHTML + "1";
+  // }
+
 }
 
 //draw() runs in a loop, after setup()
