@@ -1,99 +1,97 @@
 {
-    "montoyamoraga": {
-        "legal": {
-            "first-name": "aar&#xf3;n",
-            "middle-name": "",
-            "last-names": "montoya-moraga",
-            "marital-status": "single",
-            "nationality": "chilean",
-            "chilean-id": "16978895-2",
-            "sex-assigned-at-birth": "male"
-            },
-        "birth": {
-            "day": "3",
-            "month:": "7",
-            "year": "1989",
-            "district": "independencia",
-            "city": "santiago",
-            "country": "chile"
-        },
-        "identity": {
-            "gender": "",
-            "pronouns": "they/them"
-        },
-        "scars": {
-            "scar_0": {
-                "place": "left knee",
-                "cause": "stumble and fall",
-                "picture": "media/scars/scar0.jpg"
-              },
-              "scar_1": {
-                "place": "left hand",
-                "cause": "handball playing",
-                "picture": ""
-                },
-              "scar_2": {
-                "place": "left arm",
-                "cause": "drone crash"
-              }
-        },
-        "contact": {
-            "mail": "montoyamoraga@gmail.com",
-            "phone": "+13478842955",
-            "website": "http://montoyamoraga.io/",
-            "twitter": "montoyamoraga",
-            "facebook": "montoyamoraga",
-            "instagram": "montoyamoraga",
-            "vimeo": "montoyamoraga",
-            "github": "montoyamoraga"
-        },
-        "family": {
-          "parents": {
-            "parent_0": "mar&#xed;a bernardita moraga-armijo",
-            "parent_1": "v&#xed;ctor &#xe1;ngel miro montoya-salas"
-          },
-            "siblings": "0"
-        },
-        "beliefs": {
-            "diet": "veganism",
-            "religion": "none",
-            "politics": "left",
-            "political-party": "none"
-        },
-        "allergies": {
-            "allergy1": "mosquito bites",
-            "allergy2": "shrimp"
-        },
-        "blood": {
-            "type": "a2",
-            "rho": "positive"
-        },
-        "education": {
-            "primary-school": "the kent school",
-            "middle-school": "the kent school",
-            "high-school": "deutsche schule santiago",
-            "undergraduate": "pontificia universidad cat&#xf3;lica de chile",
-            "graduate": "new york university"
-        },
-        "drugs-ever-consumed": {
-            "alcohol": "true",
-            "caffeine": "true",
-            "tobacco": "true",
-            "marijuana": "true",
-            "cocaine": "false",
-            "crack": "false",
-            "opoids": "false",
-            "mushrooms": "false"
-        },
-        "employers": {
-            "current": "none",
-            "past": "new york university"
-        },
-        "version": {
-            "day": "11",
-            "month": "9",
-            "year": "2018",
-            "number": "3.0.0"
-        }
+  "legal": {
+    "first-name": "aar&#xf3;n",
+    "middle-name": "",
+    "last-names": "montoya-moraga",
+    "marital-status": "single",
+    "nationality": "chilean",
+    "chilean-id": "16978895-2",
+    "sex-assigned-at-birth": "male"
+  },
+  "birth": {
+    "day": "3",
+    "month:": "7",
+    "year": "1989",
+    "district": "independencia",
+    "city": "santiago",
+    "country": "chile"
+  },
+  "identity": {
+    "gender": "",
+    "pronouns": "they/them"
+  },
+  "scars": {
+    "scar_0": {
+      "place": "left knee",
+      "cause": "stumble and fall",
+      "picture": "media/scars/scar0.jpg"
+    },
+    "scar_1": {
+      "place": "left hand",
+      "cause": "handball playing",
+      "picture": ""
+    },
+    "scar_2": {
+      "place": "left arm",
+      "cause": "drone crash"
     }
+  },
+  "contact": {
+    "mail": "montoyamoraga@gmail.com",
+    "phone": "+13478842955",
+    "website": "http://montoyamoraga.io/",
+    "twitter": "montoyamoraga",
+    "facebook": "montoyamoraga",
+    "instagram": "montoyamoraga",
+    "vimeo": "montoyamoraga",
+    "github": "montoyamoraga"
+  },
+  "family": {
+    "parents": {
+      "parent_0": "mar&#xed;a bernardita moraga-armijo",
+      "parent_1": "v&#xed;ctor &#xe1;ngel miro montoya-salas"
+    },
+    "siblings": "0"
+  },
+  "beliefs": {
+    "diet": "veganism",
+    "religion": "none",
+    "politics": "left",
+    "political-party": "none"
+  },
+  "allergies": {
+    "allergy1": "mosquito bites",
+    "allergy2": "shrimp"
+  },
+  "blood": {
+    "type": "a2",
+    "rho": "positive"
+  },
+  "education": {
+    "primary-school": "the kent school",
+    "middle-school": "the kent school",
+    "high-school": "deutsche schule santiago",
+    "undergraduate": "pontificia universidad cat&#xf3;lica de chile",
+    "graduate": "new york university"
+  },
+  "drugs-ever-consumed": {
+    "alcohol": "true",
+    "caffeine": "true",
+    "tobacco": "true",
+    "marijuana": "true",
+    "cocaine": "false",
+    "crack": "false",
+    "opoids": "false",
+    "mushrooms": "false"
+  },
+  "employers": {
+    "current": "none",
+    "past": "new york university"
+  },
+  "version": {
+    "day": "11",
+    "month": "9",
+    "year": "2018",
+    "number": "3.0.0"
+  }
 }
