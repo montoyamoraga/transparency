@@ -12,13 +12,13 @@
             "day": "3",
             "month:": "7",
             "year": "1989",
+            "district": "independencia",
             "city": "santiago",
             "country": "chile"
         },
         "gender": {
             "gender-assigned-at-birth": "male",
-            "pronouns": "he/him",
-            "genitals": "penis"
+            "pronouns": "he/him"
         },
         "scars": {
             "scar1": "handball accident",
