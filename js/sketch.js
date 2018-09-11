@@ -22,16 +22,10 @@ function preload() {
 
 //setup() runs once, after preload()
 function setup() {
-  //create canvas
-  //createCanvas(windowWidth, windowHeight);
-  // noCanvas();
+  noCanvas();
 
   //retrieve keys from json
   keys = Object.keys(info)
-
-  // for (let i = 0; i < keys.length; i++) {
-  //   console.log(info[keys[i]]);
-  // }
 
   //retrieve menu
   let menu = document.getElementById("selectMenu");
@@ -39,8 +33,6 @@ function setup() {
 
   //iterate through keys
   for (let i = 0; i < keys.length; i++) {
-    //log key in console
-    //console.log(keys[i] + ": " + info[keys[i]]);
 
     //populate the menu
     //create a new option
@@ -83,42 +75,17 @@ function selectChange(selector) {
   //special case for scars
   if (keys[index] == "scars") {
     currentQuery.innerHTML += "scar_0: <br/>";
-    currentQuery.innerHTML += "<img src='../media/scars/scar0.jpg' width=50%>"
+    currentQuery.innerHTML += "<img src='https://raw.githubusercontent.com/montoyamoraga/transparency/master/media/scars/scar0.jpg' width=50%>"
     currentQuery.innerHTML += "<br />"
 
     currentQuery.innerHTML += "scar_1: <br/>";
-    currentQuery.innerHTML += "<img src='../media/scars/scar1.jpg' width=50%>"
+    currentQuery.innerHTML += "<img src='https://raw.githubusercontent.com/montoyamoraga/transparency/master/media/scars/scar1.jpg' width=50%>"
     currentQuery.innerHTML += "<br />"
 
     currentQuery.innerHTML += "scar_2: <br/>";
-    currentQuery.innerHTML += "<img src='../media/scars/scar2.jpg' width=50%>"
+    currentQuery.innerHTML += "<img src='https://raw.githubusercontent.com/montoyamoraga/transparency/master/media/scars/scar2.jpg' width=50%>"
     currentQuery.innerHTML += "<br />"
   }
-
-
-
-
-  // console.log(info[keys[index]]);
-
-
-
-  //
-  // console.log(info.legal);
-  //
-  // subTopics = Object.keys(info[index])
-  // console.log(subTopics);
-
-  // for (let j = 0; j < keys[index].length; j++) {
-  //   console.log(info[keys[index]]);
-  // }
-
-
-
-  // currentQuery.innerHTML = "";
-  // auxKeys = info.valueOf(selector);
-  // for element of info.selector {
-  //   currentQuery.innerHTML = currentQuery.innerHTML + "1";
-  // }
 
 }
 
