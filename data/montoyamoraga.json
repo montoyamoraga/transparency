@@ -60,8 +60,8 @@
     "political-party": "none"
   },
   "allergies": {
-    "allergy1": "mosquito bites",
-    "allergy2": "shrimp"
+    "allergy_0": "mosquito bites",
+    "allergy_1": "shrimp"
   },
   "blood": {
     "type": "a2",
@@ -92,6 +92,6 @@
     "day": "11",
     "month": "9",
     "year": "2018",
-    "number": "3.0.0"
+    "number": "3.0.1"
   }
 }
