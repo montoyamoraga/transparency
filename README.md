@@ -1,8 +1,10 @@
 # transparency
 
-## about
+## About
 
-transparency site with information about myself. it can be accessed at [montoyamoraga.io/transparency](http://montoyamoraga.io/transparency/)
+transparency is an ongoing project by [Aarón Montoya-Moraga](http://montoyamoraga.io/)
+
+transparency can be accessed at the website [montoyamoraga.io/transparency](http://montoyamoraga.io/transparency/) and the code lives at the repository [github.com/montoyamoraga/transparency](https://github.com/montoyamoraga/transparency)
 
 ## technology
 
