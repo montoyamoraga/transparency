@@ -21,20 +21,9 @@
     "pronouns": "they/them"
   },
   "scars": {
-    "scar_0": {
-      "place": "left knee",
-      "cause": "stumble and fall",
-      "picture": "media/scars/scar0.jpg"
-    },
-    "scar_1": {
-      "place": "left hand",
-      "cause": "handball playing",
-      "picture": ""
-    },
-    "scar_2": {
-      "place": "left arm",
-      "cause": "drone crash"
-    }
+    "scar_0": "left knee - cut - stumble and fall",
+    "scar_1": "left hand - cut - handball playing",
+    "scar_2": "left arm - cut - drone crash"
   },
   "contact": {
     "mail": "montoyamoraga@gmail.com",
@@ -47,10 +36,8 @@
     "github": "montoyamoraga"
   },
   "family": {
-    "parents": {
-      "parent_0": "mar&#xed;a bernardita moraga-armijo",
-      "parent_1": "v&#xed;ctor &#xe1;ngel miro montoya-salas"
-    },
+    "parent_0": "mar&#xed;a bernardita moraga-armijo",
+    "parent_1": "v&#xed;ctor &#xe1;ngel miro montoya-salas",
     "siblings": "0"
   },
   "beliefs": {
@@ -92,6 +79,6 @@
     "day": "11",
     "month": "9",
     "year": "2018",
-    "number": "3.0.2"
+    "number": "3.1.0"
   }
 }
