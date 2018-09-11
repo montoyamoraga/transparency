@@ -5,7 +5,7 @@
     "last-names": "montoya-moraga",
     "marital-status": "single",
     "nationality": "chilean",
-    "chilean-id": "16978895-2",
+    "chilean-id": "16.978.895-2",
     "sex-assigned-at-birth": "male"
   },
   "birth": {
@@ -92,6 +92,6 @@
     "day": "11",
     "month": "9",
     "year": "2018",
-    "number": "3.0.1"
+    "number": "3.0.2"
   }
 }
