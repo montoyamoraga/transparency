@@ -3,10 +3,11 @@
         "legal": {
             "first-name": "aar&#xf3;n",
             "middle-name": "",
-            "last-names": "montoya moraga",
+            "last-names": "montoya-moraga",
             "marital-status": "single",
             "nationality": "chilean",
-            "chilean-id": "16978895-2"
+            "chilean-id": "16978895-2",
+            "sex-assigned-at-birth": "male"
             },
         "birth": {
             "day": "3",
@@ -16,14 +17,25 @@
             "city": "santiago",
             "country": "chile"
         },
-        "gender": {
-            "gender-assigned-at-birth": "male",
-            "pronouns": "he/him"
+        "identity": {
+            "gender": "",
+            "pronouns": "they/them"
         },
         "scars": {
-            "scar1": "handball accident",
-            "scar2": "knee cut",
-            "scar3": "drone injury"
+            "scar_0": {
+                "place": "left knee",
+                "cause": "stumble and fall",
+                "picture": "media/scars/scar0.jpg"
+              },
+              "scar_1": {
+                "place": "left hand",
+                "cause": "handball playing",
+                "picture": ""
+                },
+              "scar_2": {
+                "place": "left arm",
+                "cause": "drone crash"
+              }
         },
         "contact": {
             "mail": "montoyamoraga@gmail.com",
@@ -36,16 +48,17 @@
             "github": "montoyamoraga"
         },
         "family": {
-            "biological-parent1": "mar&#xed;a bernardita moraga-armijo",
-            "biological-parent2": "v&#xed;ctor &#xe1;ngel miro montoya-salas",
-            "legal-parent1": "mar&#xed;a bernardita moraga-armijo",
-            "legal-parent2": "v&#xed;ctor &#xe1;ngel miro montoya-salas",
+          "parents": {
+            "parent_0": "mar&#xed;a bernardita moraga-armijo",
+            "parent_1": "v&#xed;ctor &#xe1;ngel miro montoya-salas"
+          },
             "siblings": "0"
         },
         "beliefs": {
             "diet": "veganism",
             "religion": "none",
-            "politics": "left"
+            "politics": "left",
+            "political-party": "none"
         },
         "allergies": {
             "allergy1": "mosquito bites",
@@ -57,6 +70,7 @@
         },
         "education": {
             "primary-school": "the kent school",
+            "middle-school": "the kent school",
             "high-school": "deutsche schule santiago",
             "undergraduate": "pontificia universidad cat&#xf3;lica de chile",
             "graduate": "new york university"
@@ -76,10 +90,10 @@
             "past": "new york university"
         },
         "version": {
-            "day": "5",
-            "month": "7",
+            "day": "11",
+            "month": "9",
             "year": "2018",
-            "number": "2.0.0"
+            "number": "3.0.0"
         }
     }
 }
