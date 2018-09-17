@@ -1,12 +1,13 @@
 {
-  "legal": {
-    "first-name": "aar&#xf3;n",
-    "middle-name": "",
-    "last-names": "montoya-moraga",
-    "marital-status": "single",
-    "nationality": "chilean",
-    "chilean-id": "16.978.895-2",
-    "sex-assigned-at-birth": "male"
+  "allergies": {
+    "allergy_0": "mosquito bites",
+    "allergy_1": "shrimp"
+  },
+  "beliefs": {
+    "diet": "veganism",
+    "religion": "none",
+    "politics": "left",
+    "political-party": "none"
   },
   "birth": {
     "day": "3",
@@ -16,14 +17,9 @@
     "city": "santiago",
     "country": "chile"
   },
-  "identity": {
-    "gender": "",
-    "pronouns": "they/them"
-  },
-  "scars": {
-    "scar_0": "left knee - cut - stumble and fall",
-    "scar_1": "left hand - cut - handball playing",
-    "scar_2": "left arm - cut - drone crash"
+  "blood": {
+    "type": "a2",
+    "rho": "positive"
   },
   "contact": {
     "mail": "montoyamoraga@gmail.com",
@@ -35,32 +31,6 @@
     "vimeo": "montoyamoraga",
     "github": "montoyamoraga"
   },
-  "family": {
-    "parent_0": "mar&#xed;a bernardita moraga-armijo",
-    "parent_1": "v&#xed;ctor &#xe1;ngel miro montoya-salas",
-    "siblings": "0"
-  },
-  "beliefs": {
-    "diet": "veganism",
-    "religion": "none",
-    "politics": "left",
-    "political-party": "none"
-  },
-  "allergies": {
-    "allergy_0": "mosquito bites",
-    "allergy_1": "shrimp"
-  },
-  "blood": {
-    "type": "a2",
-    "rho": "positive"
-  },
-  "education": {
-    "primary-school": "the kent school",
-    "middle-school": "the kent school",
-    "high-school": "deutsche schule santiago",
-    "undergraduate": "pontificia universidad cat&#xf3;lica de chile",
-    "graduate": "new york university"
-  },
   "drugs-ever-consumed": {
     "alcohol": "true",
     "caffeine": "true",
@@ -71,14 +41,45 @@
     "opoids": "false",
     "mushrooms": "false"
   },
+  "education": {
+    "primary-school": "the kent school",
+    "middle-school": "the kent school",
+    "high-school": "deutsche schule santiago",
+    "undergraduate": "pontificia universidad cat&#xf3;lica de chile",
+    "graduate": "new york university"
+  },
   "employers": {
     "current": "none",
     "past": "new york university"
   },
+  "family": {
+    "parent_0": "mar&#xed;a bernardita moraga-armijo",
+    "parent_1": "v&#xed;ctor &#xe1;ngel miro montoya-salas",
+    "siblings": "0",
+    "children": "0"
+  },
+  "identity": {
+    "gender": "",
+    "pronouns": "they/them"
+  },
+  "legal": {
+    "first-name": "aar&#xf3;n",
+    "middle-name": "",
+    "last-names": "montoya-moraga",
+    "marital-status": "single",
+    "nationality": "chilean",
+    "chilean-id": "16.978.895-2",
+    "sex-assigned-at-birth": "male"
+  },
+  "scars": {
+    "scar_0": "left knee - cut - stumble and fall",
+    "scar_1": "left hand - cut - handball playing",
+    "scar_2": "left arm - cut - drone crash"
+  },
   "version": {
-    "day": "11",
+    "day": "17",
     "month": "9",
     "year": "2018",
-    "number": "3.1.0"
+    "number": "3.2.0"
   }
 }
