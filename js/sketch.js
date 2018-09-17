@@ -5,11 +5,15 @@ let info = null;
 //store keys from the json file
 let keys = null;
 //store scar images
+//TODO: automate
 let scar0;
 let scar1;
 let scar2;
-//store text
-
+//store routinepanel images
+//TODO: automate
+let routinePanel0page0;
+let routinePanel0page1;
+let routinePanel0page2;
 
 //preload() runs first, once
 function preload() {
@@ -18,6 +22,9 @@ function preload() {
   scar0 = loadImage("./media/scars/scar0.jpg");
   scar1 = loadImage("./media/scars/scar1.jpg");
   scar2 = loadImage("./media/scars/scar2.jpg");
+  routinePanel0page0 = loadImage("./media/health-physical/routinepanel0-page0.jpg");
+  routinePanel0page1 = loadImage("./media/health-physical/routinepanel0-page1.jpg");
+  routinePanel0page2 = loadImage("./media/health-physical/routinepanel0-page2.jpg");
 }
 
 //setup() runs once, after preload()
