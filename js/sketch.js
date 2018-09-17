@@ -70,14 +70,18 @@ function selectChange(selector) {
   // reset innerHTML of currentQuery
   currentQuery.innerHTML = "";
 
-  // retrieve keys of the selector
-  auxKeys = Object.keys(info[keys[index]])
-
-  // append selector text to innerHTML of currentQuery
-  for (let i = 0; i < auxKeys.length; i++) {
-    // console.log(auxKeys[i]);
-    currentQuery.innerHTML += auxKeys[i] + ": " + info[keys[index]][auxKeys[i]] + "<br />";
+  //skip this step if index is null
+  //index is null when menu is on item "choose"
+  if (index != null) {
+    // retrieve keys of the selector
+    auxKeys = Object.keys(info[keys[index]])
+    // append selector text to innerHTML of currentQuery
+    for (let i = 0; i < auxKeys.length; i++) {
+      // console.log(auxKeys[i]);
+      currentQuery.innerHTML += auxKeys[i] + ": " + info[keys[index]][auxKeys[i]] + "<br />";
+    }
   }
+
 
   //special case for scars
   //TODO: automate
