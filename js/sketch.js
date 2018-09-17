@@ -80,6 +80,7 @@ function selectChange(selector) {
   }
 
   //special case for scars
+  //TODO: automate
   if (keys[index] == "scars") {
     currentQuery.innerHTML += "scar_0: <br/>";
     currentQuery.innerHTML += "<img src='https://raw.githubusercontent.com/montoyamoraga/transparency/master/media/scars/scar0.jpg' width=50%>"
@@ -91,6 +92,21 @@ function selectChange(selector) {
 
     currentQuery.innerHTML += "scar_2: <br/>";
     currentQuery.innerHTML += "<img src='https://raw.githubusercontent.com/montoyamoraga/transparency/master/media/scars/scar2.jpg' width=50%>"
+    currentQuery.innerHTML += "<br />"
+  }
+  //special case for health-physical
+  //TODO: automate
+  if (keys[index] == "health-physical") {
+    currentQuery.innerHTML += "routinepanel0-page0: <br/>";
+    currentQuery.innerHTML += "<img src='https://raw.githubusercontent.com/montoyamoraga/transparency/master/media/health-physical/routinepanel0-page0.jpg' width=50%>"
+    currentQuery.innerHTML += "<br />"
+
+    currentQuery.innerHTML += "routinepanel0-page1: <br/>";
+    currentQuery.innerHTML += "<img src='https://raw.githubusercontent.com/montoyamoraga/transparency/master/media/health-physical/routinepanel0-page1.jpg' width=50%>"
+    currentQuery.innerHTML += "<br />"
+
+    currentQuery.innerHTML += "routinepanel0-page2: <br/>";
+    currentQuery.innerHTML += "<img src='https://raw.githubusercontent.com/montoyamoraga/transparency/master/media/health-physical/routinepanel0-page2.jpg' width=50%>"
     currentQuery.innerHTML += "<br />"
   }
 
