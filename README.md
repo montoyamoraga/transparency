@@ -4,7 +4,7 @@
 
 transparency is an ongoing project by [Aarón Montoya-Moraga](http://montoyamoraga.io/)
 
-transparency is an ever-evolving multimedia self-portrait. It currently includes both text and images, with information about identity, beliefs, health, employment, contact, among others.
+transparency is an ever-evolving multimedia self-portrait. It currently includes text, images and PDF documents, with information about the author's identity, beliefs, health, employment, contact, among others.
 
 transparency can be accessed at the website [montoyamoraga.io/transparency](http://montoyamoraga.io/transparency/) and the code and history of the project lives at the repository [github.com/montoyamoraga/transparency](https://github.com/montoyamoraga/transparency)
 
