@@ -14,12 +14,12 @@ transparency is a database built using [JSON](https://en.wikipedia.org/wiki/JSON
 
 ## Thanks
 
-* [emma rae norton](http://marceldochamp.net/) for being an inspiring classmate at the [you.js](https://github.com/SFPC/workshops/tree/master/YOU_JS) workshop taught at [sfpc](http://sfpc.io/) by [sam lavigne](http://lav.io/)
-* [guillermo montecinos-pe&#xf1;a](https://guillemontecinos.github.io/) for moral support
-* j. for creating a safe space to talk and give beautiful feedback
-* [lauren mccarthy](http://lauren-mccarthy.com/) for creating [p5.js](https://p5js.org/)
-* [nicol&#xe1;s pe&#xf1;a-escarpentier](http://nicolaspe.com/) for great suggestions
-* [rebecca (marks) leopold](http://site.rebeccaleopold.com/) for making me figure out that these type of projects i do are actually self-portraits
-* [roy mcadonald](http://roymacdonald.github.io/) for cool feedback
-* [sam lavigne](http://lav.io/) for the [you.js](https://github.com/SFPC/workshops/tree/master/YOU_JS) workshop he taught at [sfpc](http://sfpc.io/) where i got inspired to do this
-* [wipawe sirikolkarn](http://www.wipawe.com/) for making sure i am safe
+* [Emma Rae Norton](http://marceldochamp.net/) for being an inspiring classmate at the [you.js](https://github.com/SFPC/workshops/tree/master/YOU_JS) workshop taught at [SFPC](http://sfpc.io/) by [Sam Lavigne](http://lav.io/).
+* [Guillermo Montecinos-Pe&#xf1;a](https://guillemontecinos.github.io/) for moral support.
+* j. for being supportive and encouraging.
+* [Lauren McCarthy](http://lauren-mccarthy.com/) for creating [p5.js](https://p5js.org/).
+* [Nicol&#xe1;s Escarpentier](http://nicolaspe.com/) for their great suggestions.
+* [Rebecca (Marks) Leopold](http://site.rebeccaleopold.com/) for making me figure out that these type of projects I do are actually self-portraits.
+* [Roy MacDonald](http://roymacdonald.github.io/) for cool feedback
+* [Sam Lavigne](http://lav.io/) for the [you.js](https://github.com/SFPC/workshops/tree/master/YOU_JS) workshop he taught at [SFPC](http://sfpc.io/) where I got inspired to start this project.
+* [Wipawe Sirikolkarn](http://www.wipawe.com/) for making sure I am safe.
