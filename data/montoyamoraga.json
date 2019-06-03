@@ -7,7 +7,7 @@
     "diet": "veganism",
     "religion": "none",
     "politics": "left",
-    "political-party": "none"
+    "political-party": "revoluci&#xf3;n democr&#xe1;tica, chile"
   },
   "birth": {
     "day": "3",
@@ -24,9 +24,8 @@
   "contact": {
     "mail": "montoyamoraga@gmail.com",
     "phone": "+13478842955",
-    "website": "http://montoyamoraga.io/",
+    "website": "https://montoyamoraga.io/",
     "twitter": "montoyamoraga",
-    "facebook": "montoyamoraga",
     "instagram": "montoyamoraga",
     "vimeo": "montoyamoraga",
     "github": "montoyamoraga"
@@ -36,20 +35,17 @@
     "caffeine": "true",
     "tobacco": "true",
     "marijuana": "true",
-    "cocaine": "false",
-    "crack": "false",
-    "opoids": "false",
-    "mushrooms": "false"
   },
   "education": {
     "primary-school": "the kent school",
     "middle-school": "the kent school",
     "high-school": "deutsche schule santiago",
-    "undergraduate": "pontificia universidad cat&#xf3;lica de chile",
-    "graduate": "new york university"
+    "undergraduate": "bachelor of science, major in electrical engineering, pontificia universidad cat&#xf3;lica de chile",
+    "graduate": "master in professional studies, interactive telecommunications program, new york university",
+    "current": "master in media arts and sciences, poetic justice research group, media lab, massachusetts institute of technology"
   },
   "employers": {
-    "current": "none",
+    "current": "massachusetts institute of technology",
     "past": "new york university"
   },
   "family": {
@@ -80,9 +76,9 @@
     "scar_2": "left arm - cut - drone crash"
   },
   "version": {
-    "day": "17",
-    "month": "9",
-    "year": "2018",
-    "number": "3.2.2"
+    "day": "3",
+    "month": "6",
+    "year": "2019",
+    "number": "4.0.0"
   }
 }
